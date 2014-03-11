@@ -1,10 +1,12 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.0.3'
-gem 'pg'
+# gem 'pg'
+gem 'bcrypt-ruby'
 
 group :development, :test do
 	gem 'rspec-rails'
+	gem 'sqlite3'
 end
 
 group :test do
