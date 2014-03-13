@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.3'
 gem 'pg'
 gem 'bcrypt-ruby'
+gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
 group :development, :test do
 	gem 'rspec-rails'
